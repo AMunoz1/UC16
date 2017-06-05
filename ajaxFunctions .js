@@ -15,5 +15,5 @@ for (i = 0; i < x.length; i++) {
 document.getElementById("demo").innerHTML = table;
 
 function displayCD(i) {
-    document.getElementById("showCD").innerHTML = "Artist: " + x[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue + "<br>Title: " + x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue + "<br>Year: " + x[i].getElementsByTagName("YEAR")[0].childNodes[0].nodeValue;
+    document.getElementById("showCD").innerHTML = "Artist: " + x[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue + "<br>Title: " + x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue  + "<br>Year: " + x[i].getElementsByTagName("YEAR")[0].childNodes[0].nodeValue;
 }
